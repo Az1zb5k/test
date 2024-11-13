@@ -1,0 +1,173 @@
+/* Universal styles */
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(39, 44, 61, 1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 25px;
+}
+
+header a {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.6px;
+    color: white;
+}
+
+header a:hover {
+    color: rgba(255, 156, 40, 1);
+}
+
+header .parent {
+    display: flex;
+    gap: 40px;
+}
+
+header i {
+    color: gray;
+    position: absolute;
+    right: 280px;
+    top: 22.5px;
+}
+
+header input {
+    height: 30px;
+    width: 241.87px;
+    background-color: rgba(64, 72, 100, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header select {
+    height: 30px;
+    width: 165.49px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Intro styles */
+.intro {
+    background-image: url("./images/intro-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 654px;
+}
+
+/* Major Updates styles */
+.major-updates .parent {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.major-updates h1 {
+    font-size: 32px;
+    line-height: 45.76px;
+    font-weight: 400;
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+    margin-top: 21px;
+    text-align: center;
+}
+
+/* Champions */
+.champions {
+    background-color: rgba(27, 30, 39, 1);
+}
+
+.champions .container {
+    width: 750px;
+    padding-top: 61px;
+    padding-bottom: 129px;
+}
+
+.champions h2 {
+    color: white;
+    font-size: 24px;
+    line-height: 34.32px;
+    font-weight: 400;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.champions .parent {
+    display: flex;
+    gap: 20px;
+}
+
+.champions p {
+    width: 323px;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    line-height: 20.02px;
+}
+
+.champions .child {
+    height: 234px;
+    margin-top: -15px;
+}
+
+.champions .second-h2 {
+    margin-top: 70px;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(39, 44, 61, 1);
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+footer ul {
+    display: flex;
+    gap: 25px;
+}
+
+footer a {
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 20px;
+    line-height: 28.6px;
+}
+
+footer a:hover {
+    color: rgba(255, 156, 40, 1);
+}
